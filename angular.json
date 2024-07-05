@@ -59,6 +59,16 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "uat": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+            },
+            "sit": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
             }
           },
           "defaultConfiguration": "production"
@@ -71,6 +81,12 @@
             },
             "development": {
               "buildTarget": "practice-app:build:development"
+            },
+            "uat": {
+              "buildTarget": "practice-app:build:uat"
+            },
+            "sit": {
+              "buildTarget": "practice-app:build:sit"
             }
           },
           "defaultConfiguration": "development"
@@ -102,5 +118,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "613e9d4c-d3fd-4f89-bb05-29a5b5837c74"
   }
 }
